@@ -86,6 +86,57 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 
+                
+
+                <div class="post-preview">
+                        <h2 class="post-title">
+                            Learning JAVA recap: Applets
+                        </h2>
+                    <h5 class="post-subtitle">
+                        the journey continues...</h5>
+                    <p>
+                    So it's coming to the end of my JAVA 2 module with Cardiff univeristy and mainly this module has focused on Swing applications and GUIs. I created a basic application which caluclated stopping distances, aswell as learning about the popular tile shuffle program. 
+
+                    The module began about learning about inheritance, one of the core principles of OOP and then transitioned into focusing on the Swing toolkit and GUIs. I thought this would be a good time to do a recap of what I learnt in the JAVA course so far, with a view of doing more blog posts detailing specific functionality, like super() for example.
+
+                    The first assignment for JAVA1 focused on using nested for loops, something I found familiar as I had practiced a lot of programming before starting the course. The second assignment focused on creating an applet.
+                    <center>
+                    <img class = "img-responsive" src = "file:///Users/ionakathryn/Desktop/Screen%20Shot%202017-04-11%20at%2014.51.13.png"/>
+                    </center>
+
+                    So ugly I know and kinda ashamed to have on my blog! ;-) As you can probably guess,this is not one of the aspects I most enjoy about JAVA but nevertheless I learnt alot about applets and their relation to JAVA.
+
+                    This also introduces the idea of inheritence - the class used <mark> extends </mark> Applet, meaning it inherits all methods and properties and can be used by the class. Different to an implementing an interface, all methods and properties do NOT have to be implemented. 
+
+                    The lifecycle of an Applet is as follows, all Applet methods don't take any arguments:
+                    <ol>
+                        <li> Applet is initalized, using init() method (invoked only once) </li>
+                        <li> Applet is started, using start() method </li>
+                        <li> Applet is painted, using paint() method </li>
+                        <li> Applet is stopped, using stop() method </li>
+                        <li> Applet is destroyed, using destroy() method (invoked only once) </li>
+                    </ol>
+
+                    Applets must be used with HTML files, again I have experience with using HTML as HTML and CSS were my first introduction to programming during Dec 2015, when I was based in Portugal - wow time flies and I feel like I've learnt a lot since then! 
+
+                    Within the html the user must enter a:
+                    <xmp>
+                    <applet code>
+                    </xmp> 
+                    tag which embeds the applet into the html. The html document also requires the height and width of the application screen. 
+
+                    All this is interesting, but you can have more functionality by using GUIs such as by using JFrames and the Swing toolkit, which will be discussed in another blog post.
+
+                    The main thing I learnt that during this module I knew that I wanted to focus more on back-end work that front-end, as may be obvious from the applet ;-). 
+
+                    This week I am attending the Virtual Reality World Conference in Bristol so will hopefully do a write up of this on the blog soon too but until then thank you so much for reading! :)
+
+
+                        
+                    </p>
+                    <p class="post-meta">[April 2017]</p>
+                </div>
+
                 <div class="post-preview">
                         <h2 class="post-title">
                             First post
@@ -125,9 +176,7 @@
                     </p>
                     <p class="post-meta">[April 2017]</p>
                 </div>
-                <hr>
-
-                <hr>
+                
                 <!-- Pager -->
             </div>
         </div>
