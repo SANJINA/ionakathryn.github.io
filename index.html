@@ -87,10 +87,97 @@
 
                 <div class="post-preview">
                         <h2 class="post-title">
+                            Random Access Files</h2>
+                    <h5 class="post-subtitle">
+                        Random Access Files in JAVA</h5>
+                    <p>
+                    
+                        I'm not used to technical blogging and just want to clarify this blog is mainly to help my understnading of topics and to share what I've learnt so that it may help others :)
+                        <br></br> 
+                        So I said I’d do a post ever week and I think what’s holding me back from blogging more is:
+                        <ul>
+                        <li> finding/making the time </li>
+                        <li> wanting to create really good quality posts </li>
+                        </ul>
+So I would rather put a lot of thought and value into a post than just write for the sake of it. One thing I’ve noticed is that a lot of people LOVE to make things more complicatded than they actually are. So with this in mind, I’ve made a decision to wherever possible try and keep things, including code examples as simple as possible.
+Today I have decided to write about Random Access Files in Java as this is what I’m currently focusing on right now. 
+<br></br>
+
+In order to be able to use random access files in Java we need to first import the random access file package:
+
+<code> import java.io.RandomAccessFile </code>
+
+This enables us to use the Random Access File class and its associated methods.
+</br></br>
+
+
+The code below basically opens a file, reads the file length (one of the inbuilt methods) and outputs its result. An important thing to note is when using the length() method we must also catch an IOException otherwise the program will not compile. 
+<br></br>
+<h5> input </h5>
+
+<code><pre>
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.io.FileNotFoundException;
+
+public class hello{
+
+public static void main(String[] args){
+    try{
+    RandomAccessFile raf = new RandomAccessFile(new File("hello.txt"),"rw");
+    System.out.println("file opened / read succesfully");
+    System.out.println(raf.length());
+    raf.writeUTF("hello world!");
+    
+    }
+    catch(IOException e){
+        System.out.println("error opening / reading file");
+        e.printStackTrace();
+    }
+    
+    
+    }
+}
+</code></pre>
+
+<br></br>
+As can be seen, when creating the file ‘hello.txt’ we need to specify how we want to use this file, by the second argument, the first is the file name, which is a string. In this example, I have said that we want to be able to read and write, which is signified by the initals ‘rw’. If I only wanted to read I would, as you probably can guess, put only ‘r’ as the second argument. 
+<br></br>
+One of the ways in which we can gain random access to the file is by using the seek() method. The seek method basically lets the user access a specific place in the file, which is determined by the argument passed to the seek() function. The RAF is treated as a binary file and must be handled as a stream of bytes. The file pointer is set to the argument given in the seek() method, which is the position in bytes. 
+<br></br>
+When a file is first opened, the pointer is always set to 0. It’s really important to be familiar with datatypes and there associated memory if we want to navigate succesfully through Random Access Files, for example if an integer is being read, the pointer will be moved by 4 bytes, because this is the size of an integer. 
+</br></br>
+A brief overview of datatypes and their size is shown below:
+<br></br>
+
+<img class = "img-responsive" src = "http://1.bp.blogspot.com/_uIwyaTjqYYw/TU5DSlPrR0I/AAAAAAAABTA/82jXwO1nBBk/s640/8.jpeg"/>
+<br></br
+</center>
+Again, there are more complex tables available but for this post I just want to keep things simple to enhance clarity and understanding. Another really useful method is <code> .writeUTF() </code> and the way I am using here, it will add the text ‘hello world’ into the file hello.txt. It’s useful to note that when I ran the program without writing the file the <code> System.out.println(raf.length()) </code> command printed 0 but after including the <code> writeUTF(“hello world!”) </code> the value printed is now 14 because this is within the file, as can be seen in the output below. 
+<br></br>
+<h5> output </h5>
+<code>
+~/workspace/Java/ $ java hello <br>
+file opened / read succesfully <br>
+14
+</code>
+<br> </br>
+I hope this post was helpful and informative and if you have any questions please get in touch by using the 'contact' link above :) Please remember if you want to run this code locally then you will need to create a 'hello.txt' file in the same directory for this to work.
+                        
+                    </p>
+                    <p class="post-meta">[May 2017]</p>
+                </div>
+
+
+
+
+                <div class="post-preview">
+                        <h2 class="post-title">
                             VR World Congress 2017
                         </h2>
                     <h5 class="post-subtitle">
-                        The opportunities are limitless</h5>
+                        the opportunities are limitless</h5>
                     <p>
                     
                     <center>
