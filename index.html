@@ -25,97 +25,243 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">about</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                Menu <i class="fa fa-bars"></i>
+            </button>
         </div>
-        <!-- /.container -->
-    </nav>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header"
-            style="background-image: url('https://spaceflight.nasa.gov/gallery/images/station/crew-30/hires/iss030e078095.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>welcome</h1>
-                        <hr class="small">
-                        <span class="subheading">welcome to my site, i'm a self taught software engineer and this is a documentation of my journey</span>
-                    </div>
-                </div>
-            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="about.html">about</a>
+                </li>
+                <li>
+                    <a href="contact.html">contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
 
-    <!-- Main Content -->
+<!-- Page Header -->
+<!-- Set your background image for this header on the line below. -->
+<header class="intro-header"
+        style="background-image: url('https://spaceflight.nasa.gov/gallery/images/station/crew-30/hires/iss030e078095.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>welcome</h1>
+                    <hr class="small">
+                    <span class="subheading">welcome to my site, i'm a self taught software engineer and this is a documentation of my journey</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                <div class="post-preview">
+            <div class="post-preview">
+                <h2 class="post-title">
+                    Intro to Python</h2>
+                <h5 class="post-subtitle">
+                    Introduction to Ethical Hacking for Python</h5>
+                <p>
+
+                    I saw someone post on a group that I’m a member of some Udemy voucher codes. Which can be seen on<base> <a href="https://www.reddit.com/r/cscareerquestions/comments/693c1w/udemy_paid_courses_for_free/dh3j9un/"/> this </base></a> link. Out of these courses, the one that jumped out the most at me was ‘An Introduction to Python for Ethical Hacking’. I got really exited about this and decided to take a look at it asap.
+
+                    So I began. The beginning of the course talks about how to install Python on Windows and Kali Linux. There is no explanation on why Kali Linux is different to Ubuntu for example but this was just setting up so a brief demonstration on how to install python as well as using the
+                    <code> pip </code> command was introduced. I am a massive fan of linux and wouldn’t go back to Windows at all, the last time I used Windows10 I was having major internet connectivity issues. Learning basic commands such as <code> pip </code> is useful for me, as I have not used Python before but something I’ve been interested in learning for a while. The instructor also mentioned that one of the major benefits of Python is that users are able to use the vast amount of modules within their code. The first thing I did was run: <br> </br>
+
+                    <code> pip install google </code> <br></br>
+
+                    I didn’t really know what this was installing (bad, I know!) so decided to navigate into:
+
+                    <br></br>
+
+                    <code> google-1.9.3.dist-info </code>
+
+                    <br> </br>
+                    to see if I could get any more information on this module. What I found out was this module enables programmers to use Google search from their Python code. If you are interested in learning more about this module then please see <a href = “https://breakingcode.wordpress.com/2010/06/29/google-search-python/> this </a> link.
+
+                    <br></br>
+
+                    Anyway, the main module that needs to be installed for this course is nmap and I didn’t use the google module any further. The nmap module can be installed by running: <br></br>
+
+                    <code> pip install python-nmap </code>
+
+                    <br></br>
+
+                    I had some issues because I couldn’t find the directory in which nmap is installed but then I ran the install command for the second time and the terminal actually told me where it was located. A bit of extra problem solving, but that’s what I enjoy! So I navigated to the dir in which the module was located, which was within site packages. After navigating into the nmap directory, I then had to run: <br> </br>
+
+                    <code> python nmap.py install </code>
+
+                    <br> </br>
+
+                    I then had to install PyCharm. I frequentley use Intellij so this was no problem for me. It’s so much easier writing code in an IDE as my normal dev environment is Sublime or an online env such as Cloud9 (which is amazing) but yes it is useful to develop in an IDE as it’s possible to see specific error messages as you go and gives the ability to refactor the code too. The main reason I don’t use IDEs that often though is because sometimes I just want to run something quickly or for a test and not have to go through all the setup and config of the progam.
+
+                    <br></br>
+
+                    My first Python program looked like this:
+
+                    <br></br>
+                <h5> input </h5>
+
+                <code><pre>
+import nmap
+
+print “Hello, World!”
+ns = nmap.PortScanner()
+print ns.map_version()
+
+</pre></code>
+
+
+                <br></br>
+
+                <h5> output </h5>
+
+                <code> <pre>
+Hello, World!
+(7, 1)
+</pre></code>
+                <br> </br>
+
+                As is evident from this outpur, the version I am running of nmap is 7.01. Really simple I know and coming from a JAVA backround, it’s unbelievable how little code and how efficient Python is with regards to being a scripting language. I have dabbled with Ruby in the past and didn’t like this aspect but as I’ve developed in my coding journey and learnt more about programming I’ve come to appreciate how amazing this is and I am looking forward to learning more about Python!
+
+                <br></br>
+
+                As I didn’t install nmap correctly to begin with, I had a lot of path issues but these were resolved after a bit of problem solving ;-). As you can see from the above code, the method I used from nmap is
+                <br> </br>
+
+                <code> .PortScanner() </code>
+                <br></br>
+
+                To be honest though, the course was really not good at all and this evident by the fact that this method was not explained and other methods and I had to go and look these up independently, which is fine, but Udemy wanted to charge people £185 for this course! I couldn’t believe it. I’d be reluctant to pay anything for it! I mean it was useful to learn the basics of Python but there is no explanation of  the particular methods or functionality of nmap at all. It’s basically just watching someone code! Anyway, I try not to be negative and I did learn a lot about Python and the basics of the language, especially as I don’t have that much knowledge on higher level languages!
+
+                <br> </br>
+
+                When learning for loops I had to get used to not using semi colons after everything and that indentation is <b> crucial </b> in Python! But it was very easy to understand and the code is very simple. For an example, see this comparison on JAVA and Python:
+
+                <br> </br>
+                <h5> python </h5>
+                <code> <pre>
+for x in range (0,10)
+    print x
+</pre></code>
+
+                <br></br>
+                <h5> JAVA </h5>
+                <code> <pre>
+for (int x = 0; x < 10; x++)
+{
+    System.out.println(x);
+}
+</pre></code>
+
+                <br> </br>
+
+                wow, a lot more code for JAVA!! Including more essential things for syntax, such as brackets and semi colons. Such a contrast typing <code> print </code> for python and <code> System.out.println() </code> for JAVA! However I did have a few indentation errors with Python so it forces one to be extra careful with formatting, which is a great thing in my opinion :-).
+                <br> </br>
+
+                The next thing that the course focuses on is creating a ‘password cracker’ and a ‘network scanner’ with Python but to be honest I didn’t understand what the code was doing. I think this is a combination of the terrible instructor and also not having the adequate knowledge of networking. However this won’t be for long, as my current JAVA course with Cardiff Uni we are currently learning about networking! I am really intereted in security so naturally can’t wait to learn more about this. We have mainly focused on GUI / Swing at the moment, something which I’m not hugely interested in, but the networking is a different story! ;-)
+
+                <br></br>
+
+                The code, which as mentioned above, I don’t completely understand, for the network scanner is as follows:
+                <br> </br>
+                <code><pre>
+import nmap
+
+ns = nmap.PortScanner()
+print ns.nmap_version()
+ns.scan('82.9.92.188', '1-1000' , '-v --version-all')
+print ns.scaninfo()
+print ns.csv()
+
+print ns.all_hosts()
+print (ns['82.9.92.188'].all_protocols())
+</pre></code>
+
+                <br> </br>
+                I decided to use my public IP for this and got a lot of results, but at the moment I don’t understand the output. However, I am hoping in a few weeks after focusing on network I will be better able to understand these. My main understanding is we can monitor ports and see what is being done on the various ports and also we are able, with nmap to view the status of a particular port as well.
+
+                <br> </br>
+
+                If anyone is interested I also wrote code for a brute force ‘password cracker’ but I don’t understand this code and it wasn’t explained in the course,so for now I will not include it in this post. However, if you are interested please let me know then I will add it! Once again, thank you for reading this post! :-) Take a look at this certificate I obtained! ;-)
+                <center>
+                    <img class = "img-responsive" src = "https://www.linkedin.com/feed/update/urn:li:activity:6266379997506732032/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A6266379997506732032%2C6266584414612914176)"/>
+                </center>
+
+
+                </p>
+                <p class="post-meta">[May 2017]</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- Main Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    <div class="post-preview">
                         <h2 class="post-title">
                             Random Access Files</h2>
-                    <h5 class="post-subtitle">
-                        Random Access Files in JAVA</h5>
-                    <p>
-                    
-                        I'm not used to technical blogging and just want to clarify this blog is mainly to help my understnading of topics and to share what I've learnt so that it may help others :)
-                        <br></br> 
-                        So I said I’d do a post every week and I think what’s holding me back from blogging more is:
+                        <h5 class="post-subtitle">
+                            Random Access Files in JAVA</h5>
+                        <p>
+
+                            I'm not used to technical blogging and just want to clarify this blog is mainly to help my understnading of topics and to share what I've learnt so that it may help others :)
+                            <br></br>
+                            So I said I’d do a post ever week and I think what’s holding me back from blogging more is:
                         <ul>
-                        <li> finding/making the time </li>
-                        <li> wanting to create really good quality posts </li>
+                            <li> finding/making the time </li>
+                            <li> wanting to create really good quality posts </li>
                         </ul>
-So I would rather put a lot of thought and value into a post than just write for the sake of it. One thing I’ve noticed is that a lot of people LOVE to make things more complicatded than they actually are. So with this in mind, I’ve made a decision to wherever possible try and keep things, including code examples as simple as possible.
-Today I have decided to write about Random Access Files in Java as this is what I’m currently focusing on right now. 
-<br></br>
+                        So I would rather put a lot of thought and value into a post than just write for the sake of it. One thing I’ve noticed is that a lot of people LOVE to make things more complicatded than they actually are. So with this in mind, I’ve made a decision to wherever possible try and keep things, including code examples as simple as possible.
+                        Today I have decided to write about Random Access Files in Java as this is what I’m currently focusing on right now.
+                        <br></br>
 
-In order to be able to use random access files in Java we need to first import the random access file package:
+                        In order to be able to use random access files in Java we need to first import the random access file package:
 
-<code> import java.io.RandomAccessFile </code>.
+                        <code> import java.io.RandomAccessFile </code>
 
-This enables us to use the Random Access File class and its associated methods.
-</br></br>
+                        This enables us to use the Random Access File class and its associated methods.
+                        </br></br>
 
 
-The code below basically opens a file,writes data to the file, reads the file length (one of the inbuilt methods) and outputs its result. An important thing to note is when using the length() method we must also catch an IOException otherwise the program will not compile. 
-<br></br>
-<h5> input </h5>
+                        The code below basically opens a file, reads the file length (one of the inbuilt methods) and outputs its result. An important thing to note is when using the length() method we must also catch an IOException otherwise the program will not compile.
+                        <br></br>
+                        <h5> input </h5>
 
-<code><pre>
+                        <code><pre>
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -129,99 +275,105 @@ public static void main(String[] args){
     System.out.println("file opened / read succesfully");
     System.out.println(raf.length());
     raf.writeUTF("hello world!");
-    
+
     }
     catch(IOException e){
         System.out.println("error opening / reading file");
         e.printStackTrace();
     }
-    
-    
+
+
     }
 }
-</code></pre>
+                        </code></pre>
 
-<br></br>
-As can be seen, when creating the file ‘hello.txt’ we need to specify how we want to use this file, by the second argument, the first is the file name, which is a string. In this example, I have said that we want to be able to read and write, which is signified by the initals ‘rw’. If I only wanted to read I would, as you probably can guess, put only ‘r’ as the second argument. 
-<br></br>
-One of the ways in which we can gain random access to the file is by using the seek() method. The seek method basically lets the user access a specific place in the file, which is determined by the argument passed to the seek() function. The RAF is treated as a binary file and must be handled as a stream of bytes. The file pointer is set to the argument given in the seek() method, which is the position in bytes. 
-<br></br>
-When a file is first opened, the pointer is always set to 0. It’s really important to be familiar with datatypes and there associated memory if we want to navigate succesfully through Random Access Files, for example if an integer is being read, the pointer will be moved by 4 bytes, because this is the size of an integer. 
-</br></br>
-A brief overview of datatypes and their size is shown below:
-<br></br>
+                        <br></br>
+                        As can be seen, when creating the file ‘hello.txt’ we need to specify how we want to use this file, by the second argument, the first is the file name, which is a string. In this example, I have said that we want to be able to read and write, which is signified by the initals ‘rw’. If I only wanted to read I would, as you probably can guess, put only ‘r’ as the second argument.
+                        <br></br>
+                        One of the ways in which we can gain random access to the file is by using the seek() method. The seek method basically lets the user access a specific place in the file, which is determined by the argument passed to the seek() function. The RAF is treated as a binary file and must be handled as a stream of bytes. The file pointer is set to the argument given in the seek() method, which is the position in bytes.
+                        <br></br>
+                        When a file is first opened, the pointer is always set to 0. It’s really important to be familiar with datatypes and there associated memory if we want to navigate succesfully through Random Access Files, for example if an integer is being read, the pointer will be moved by 4 bytes, because this is the size of an integer.
+                        </br></br>
+                        A brief overview of datatypes and their size is shown below:
+                        <br></br>
 
-<img class = "img-responsive" src = "http://1.bp.blogspot.com/_uIwyaTjqYYw/TU5DSlPrR0I/AAAAAAAABTA/82jXwO1nBBk/s640/8.jpeg"/>
-<br></br
-</center>
-Again, there are more complex tables available but for this post I just want to keep things simple to enhance clarity and understanding. Another really useful method is <code> .writeUTF() </code> and the way I am using here, it will add the text ‘hello world’ into the file hello.txt. It’s useful to note that when I ran the program without writing the file the <code> System.out.println(raf.length()) </code> command printed 0 but after including the <code> writeUTF(“hello world!”) </code> the value printed is now 14 because this is within the file, as can be seen in the output below. 
-<br></br>
-<h5> output </h5>
-<code>
-~/workspace/Java/ $ java hello <br>
-file opened / read succesfully <br>
-14
-</code>
-<br> </br>
-I hope this post was helpful and informative and if you have any questions please get in touch by using the 'contact' link above :) Please remember if you want to run this code locally then you will need to create a 'hello.txt' file in the same directory for this to work.
-                        
-                    </p>
-                    <p class="post-meta">[May 2017]</p>
+                        <img class = "img-responsive" src = "http://1.bp.blogspot.com/_uIwyaTjqYYw/TU5DSlPrR0I/AAAAAAAABTA/82jXwO1nBBk/s640/8.jpeg"/>
+                        <br></br
+                        </center>
+                        Again, there are more complex tables available but for this post I just want to keep things simple to enhance clarity and understanding. Another really useful method is <code> .writeUTF() </code> and the way I am using here, it will add the text ‘hello world’ into the file hello.txt. It’s useful to note that when I ran the program without writing the file the <code> System.out.println(raf.length()) </code> command printed 0 but after including the <code> writeUTF(“hello world!”) </code> the value printed is now 14 because this is within the file, as can be seen in the output below.
+                        <br></br>
+                        <h5> output </h5>
+                        <code>
+                            ~/workspace/Java/ $ java hello <br>
+                            file opened / read succesfully <br>
+                            14
+                        </code>
+                        <br> </br>
+                        I hope this post was helpful and informative and if you have any questions please get in touch by using the 'contact' link above :) Please remember if you want to run this code locally then you will need to create a 'hello.txt' file in the same directory for this to work.
+
+                        </p>
+                        <p class="post-meta">[May 2017]</p>
+                    </div>
                 </div>
 
+            </div>
+        </div>
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                <div class="post-preview">
-                        <h2 class="post-title">
-                            VR World Congress 2017
-                        </h2>
-                    <h5 class="post-subtitle">
-                        the opportunities are limitless</h5>
-                    <p>
-                    
-                    <center>
+            <div class="post-preview">
+                <h2 class="post-title">
+                    VR World Congress 2017
+                </h2>
+                <h5 class="post-subtitle">
+                    the opportunities are limitless</h5>
+                <p>
+
+                <center>
                     <img class = "img-responsive" src = "http://4633k91sjy7a1tdnw4180z1b.wpengine.netdna-cdn.com/wp-content/uploads/2016/04/Hololens-social-carousel.jpg"/>
-                    </center>
+                </center>
 
-                    <br></br>
+                <br></br>
 
-                    Wow! I recentley went to the VR World Congress organised by <a href = "http://opposablevr.com/"> Opposable VR </a> in Bristol and it was absoloutley amazing. It was my first time into the world of VR and it's inspired me so much to start learning image processing such as three.js and webgl, prompting me to explore JavaScript further.
-                    <br></br>
+                Wow! I recentley went to the VR World Congress organised by <a href = "http://opposablevr.com/"> Opposable VR </a> in Bristol and it was absoloutley amazing. It was my first time into the world of VR and it's inspired me so much to start learning image processing such as three.js and webgl, prompting me to explore JavaScript further.
+                <br></br>
 
-                    I've been to Bristol a few times in the last few weeks and I absoloutley love the city, prompting me to make a decision to move there. I was working with Microsoft Hololens for the congress, it was easily the busiest stall and we had to ensure everyone queued in a suitable manner! Microsoft Hologram is a Holographic Processing Unit (HPU), a single device which bridges the gap between AR (augmented reality) and VR (virtual reality) and it runs on Windows 10. It was my first foray into both AR and VR. I have to say AR is less intense but no less amazing than VR (which is geared more towards entertainment) - it seems the 'hardcore' gamers will be into VR and AR definitley seems more accesible to the general population.
-               <br> </br>
+                I've been to Bristol a few times in the last few weeks and I absoloutley love the city, prompting me to make a decision to move there. I was working with Microsoft Hololens for the congress, it was easily the busiest stall and we had to ensure everyone queued in a suitable manner! Microsoft Hologram is a Holographic Processing Unit (HPU), a single device which bridges the gap between AR (augmented reality) and VR (virtual reality) and it runs on Windows 10. It was my first foray into both AR and VR. I have to say AR is less intense but no less amazing than VR (which is geared more towards entertainment) - it seems the 'hardcore' gamers will be into VR and AR definitley seems more accesible to the general population.
+                <br> </br>
 
-                    It's really amazing to see the potential applications of both AR and VR - from healthcare to architecture to education, the possibilities are limitless. During my Hololens demo, I visited space and a few minutes later was given a full on interactive image of the anatomy of the human body - this really has the potential to revolutionize education in an amazing way. The image below is me having a great time exploring the possibilities of the Hololens:
-                    <br></br>
+                It's really amazing to see the potential applications of both AR and VR - from healthcare to architecture to education, the possibilities are limitless. During my Hololens demo, I visited space and a few minutes later was given a full on interactive image of the anatomy of the human body - this really has the potential to revolutionize education in an amazing way. The image below is me having a great time exploring the possibilities of the Hololens:
+                <br></br>
 
-                    <center>
+                <center>
                     <img class = "img-responsive" src = "https://pbs.twimg.com/profile_images/852962561163177984/no1MYgtZ.jpg"/>
-                    </center>
-                    <br></br>
+                </center>
+                <br></br>
 
-                    The way in which the Hololens works is that its built in sensors map the environment - this is a huge benefit as it doesn't need external positioning devices. One thing I noticed was that some exhibitors were having difficulties because the floor was uneven and sometimes this would cause difficulty with positioning and tracking the space. The Hololens uses hand gestures, which act as control inputs. 
-                    <br></br>
+                The way in which the Hololens works is that its built in sensors map the environment - this is a huge benefit as it doesn't need external positioning devices. One thing I noticed was that some exhibitors were having difficulties because the floor was uneven and sometimes this would cause difficulty with positioning and tracking the space. The Hololens uses hand gestures, which act as control inputs.
+                <br></br>
 
-                    With regards to audio, the Hololens uses a 3D speaker system, which doesn't cover the ears, allowing sounds from the 'real world' to be heard without interference. This is amazing and has great potential.
+                With regards to audio, the Hololens uses a 3D speaker system, which doesn't cover the ears, allowing sounds from the 'real world' to be heard without interference. This is amazing and has great potential.
 
-                    <br></br>
+                <br></br>
 
-                    Yes the device is quite bulky, but the fact that it is a standalone device should also be taken into consideration, with no wiring needed. Something I found absoloutley incredible is the game 'roboraid'. Now I am not a gamer, well not anymore - I used to be a big fan of Spyro! but this game was <mark> AMAZING </mark>, mainly due to the graphics. The images were so 'beautiful',the graphics mixed with the surfaces of the space around was something that can't be explained in a blog post. This is why I am more drawn to AR than VR because of the possibility of utilising both the space a round and the capability of the AR technology to produce awe inspiring experiences. Below is a screenshot from the game: 
+                Yes the device is quite bulky, but the fact that it is a standalone device should also be taken into consideration, with no wiring needed. Something I found absoloutley incredible is the game 'roboraid'. Now I am not a gamer, well not anymore - I used to be a big fan of Spyro! but this game was <mark> AMAZING </mark>, mainly due to the graphics. The images were so 'beautiful',the graphics mixed with the surfaces of the space around was something that can't be explained in a blog post. This is why I am more drawn to AR than VR because of the possibility of utilising both the space a round and the capability of the AR technology to produce awe inspiring experiences. Below is a screenshot from the game:
 
-                    <br></br>
+                <br></br>
 
                 <center>
                     <img class = "img-responsive" src = "https://i.ytimg.com/vi/aSM_88jSHN8/maxresdefault.jpg"/>
                 </center>
 
-                <br> </br> 
+                <br> </br>
 
                 I feel so inspired to start learning three.js after experience these graphics and even though RoboRaid is developed with unity it's still opened my eyes to the creative nature of programming and the amazing things that can be built.
 
                 <br></br>
 
-                Another <mark> incredible </mark> thing I saw at the VRWC was ultrahaptics (a Bristol based company) device that enables users to 'feel' invisible objects. Again, the possibilities of using this technology are so numerous and very very exciting. Imagine being in a fight game and FEELING the force of the opponent!! 
+                Another <mark> incredible </mark> thing I saw at the VRWC was ultrahaptics (a Bristol based company) device that enables users to 'feel' invisible objects. Again, the possibilities of using this technology are so numerous and very very exciting. Imagine being in a fight game and FEELING the force of the opponent!!
 
                 <br></br>
 
@@ -229,7 +381,7 @@ I hope this post was helpful and informative and if you have any questions pleas
 
                 <br></br>
 
-                There were plenty of other things to explore at the conference, which saw over 750 delegates from 20+ countries and it was difficult to experience everything in such a short time. A few days earlier, I'd seen Ghost in the Shell in the cinema and AMD were hosting a VR experience of the film. It was my second time using VR technology and I had to take the headset off it was too intense! The film itself is very intense and the VR experience was literally out of this world! I would reccomend this to anyone with an interest in VR. In the opening scene, there is a cityscape filled with lots of images and it actually felt like I was moving THROUGH the images  - I couldn't quite believe it. To give you an idea, see the image of the film below and try to imagine actually being in that scene. 
+                There were plenty of other things to explore at the conference, which saw over 750 delegates from 20+ countries and it was difficult to experience everything in such a short time. A few days earlier, I'd seen Ghost in the Shell in the cinema and AMD were hosting a VR experience of the film. It was my second time using VR technology and I had to take the headset off it was too intense! The film itself is very intense and the VR experience was literally out of this world! I would reccomend this to anyone with an interest in VR. In the opening scene, there is a cityscape filled with lots of images and it actually felt like I was moving THROUGH the images  - I couldn't quite believe it. To give you an idea, see the image of the film below and try to imagine actually being in that scene.
 
                 <br></br>
 
@@ -247,98 +399,109 @@ I hope this post was helpful and informative and if you have any questions pleas
                 <br></br>
 
 
+                </p>
+                <p class="post-meta">[April 2017]</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+<div class="post-preview">
+
+    <h2 class="post-title">
+        This weekend, video and Arduino
+    </h2>
+    <h5 class="post-subtitle">
+        this weekend is a looong weekend, YES! Because I really need a break, this is what I'm doing...</h5>
+    <p>
+        Woo it's been a <i> really </i> looong week. So it's good that to balance this we have a loooong easter weekend! :) I went to the VRWC an event held in Bristol, UK focusing on the world of VR and I have to say it's absoloutley incredible and really exciting to see all this unfolding. I was working with Microsoft Hololens, which is augmented reality - you can actually see things through the glasses whilst interacting with the Hololens which is a lot less intense than full on VR. Anyway, this isn't what I'm planning to talk about in this post. I want to focus on what I've been up to regarding the Arduino. I love the opportunities of programming and the potential to create really amazing things. I was thinking recentley that I keep getting no luck trying to find work within financial services as a programmer so I thought the only way people are going to take me seriously is if I start making and building stuff, putting my skills in practice. With this in mind, I decided to work with the Arduino.
+    <center>
+        <img class = "img-responsive" src = "https://cdn.sparkfun.com//assets/parts/6/3/4/3/11021-04c.jpg"/>
+    </center>
+
+    I'm using the Arduino UNO which I got around Christmas, but I've been soooo busy focusing on learning JAVA and logic problems that I haven't really been making and tinkering with stuff. So I am following the Starter book and decided to work on the next project in the book (004 - the color mixing lamp). This is really cool but I am still having some calibration problems with the output and using the gel color strips to modify the output so I need to work on this a bit more and I will do a more detailed discussion about this. For now, I've included a very quick video with a <mark> brief </mark> overview of the project. This blog is documentation, it is work in progress, a way to keep track and motivate me to keep doing / making cool stuff :) anyway, thanks for reading and hope you enjoy. If you have any questions or want to collaborate then please get in touch! Happy Easter! :)
+
+    <br> </br>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ydRuz6VRJFA" frameborder="0" allowfullscreen></iframe></center>
+    <br> </br>
+
+    </p>
+    <p class="post-meta">[April 2017]</p>
+</div>
+</div>
+</div>
+</div>
 
 
 
 
-
-
-
-
-                        
-                    </p>
-                    <p class="post-meta">[April 2017]</p>
-                </div>
-
-
-            <div class="post-preview">
-                        <h2 class="post-title">
-                            This weekend, video and Arduino
-                        </h2>
-                    <h5 class="post-subtitle">
-                        this weekend is a looong weekend, YES! Because I really need a break, this is what I'm doing...</h5>
-                    <p>
-                    Woo it's been a <i> really </i> looong week. So it's good that to balance this we have a loooong easter weekend! :) I went to the VRWC an event held in Bristol, UK focusing on the world of VR and I have to say it's absoloutley incredible and really exciting to see all this unfolding. I was working with Microsoft Hololens, which is augmented reality - you can actually see things through the glasses whilst interacting with the Hololens which is a lot less intense than full on VR. Anyway, this isn't what I'm planning to talk about in this post. I want to focus on what I've been up to regarding the Arduino. I love the opportunities of programming and the potential to create really amazing things. I was thinking recentley that I keep getting no luck trying to find work within financial services as a programmer so I thought the only way people are going to take me seriously is if I start making and building stuff, putting my skills in practice. With this in mind, I decided to work with the Arduino. 
-                    <center>
-                    <img class = "img-responsive" src = "https://cdn.sparkfun.com//assets/parts/6/3/4/3/11021-04c.jpg"/>
-                    </center>
-
-                    I'm using the Arduino UNO which I got around Christmas, but I've been soooo busy focusing on learning JAVA and logic problems that I haven't really been making and tinkering with stuff. So I am following the Starter book and decided to work on the next project in the book (004 - the color mixing lamp). This is really cool but I am still having some calibration problems with the output and using the gel color strips to modify the output so I need to work on this a bit more and I will do a more detailed discussion about this. For now, I've included a very quick video with a <mark> brief </mark> overview of the project. This blog is documentation, it is work in progress, a way to keep track and motivate me to keep doing / making cool stuff :) anyway, thanks for reading and hope you enjoy. If you have any questions or want to collaborate then please get in touch! Happy Easter! :)
-                    
-                    <br> </br>
-                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ydRuz6VRJFA" frameborder="0" allowfullscreen></iframe></center>
-                    <br> </br>
-                        
-                    </p>
-                    <p class="post-meta">[April 2017]</p>
-                </div>
-
-
-                
-
-                <div class="post-preview">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-preview">
                         <h2 class="post-title">
                             Learning JAVA recap: Applets
                         </h2>
-                    <h5 class="post-subtitle">
-                        the journey continues...</h5>
-                    <p>
-                    So it's coming to the end of my JAVA 2 module with Cardiff univeristy and mainly this module has focused on Swing applications and GUIs. I created a basic application which caluclated stopping distances, aswell as learning about the popular tile shuffle program. 
+                        <h5 class="post-subtitle">
+                            the journey continues...</h5>
+                        <p>
+                            So it's coming to the end of my JAVA 2 module with Cardiff univeristy and mainly this module has focused on Swing applications and GUIs. I created a basic application which caluclated stopping distances, aswell as learning about the popular tile shuffle program.
 
-                    The module began about learning about inheritance, one of the core principles of OOP and then transitioned into focusing on the Swing toolkit and GUIs. I thought this would be a good time to do a recap of what I learnt in the JAVA course so far, with a view of doing more blog posts detailing specific functionality, like super() for example.
+                            The module began about learning about inheritance, one of the core principles of OOP and then transitioned into focusing on the Swing toolkit and GUIs. I thought this would be a good time to do a recap of what I learnt in the JAVA course so far, with a view of doing more blog posts detailing specific functionality, like super() for example.
 
-                    The first assignment for JAVA1 focused on using nested for loops, something I found familiar as I had practiced a lot of programming before starting the course. The second assignment focused on creating an applet.
-                    <center>
-                    <img class = "img-responsive" src = "file:///Users/ionakathryn/Desktop/Screen%20Shot%202017-04-11%20at%2014.51.13.png"/>
-                    </center>
+                            The first assignment for JAVA1 focused on using nested for loops, something I found familiar as I had practiced a lot of programming before starting the course. The second assignment focused on creating an applet.
+                        <center>
+                            <img class = "img-responsive" src = "file:///Users/ionakathryn/Desktop/Screen%20Shot%202017-04-11%20at%2014.51.13.png"/>
+                        </center>
 
-                    So ugly I know and kinda ashamed to have on my blog! ;-) As you can probably guess,this is not one of the aspects I most enjoy about JAVA but nevertheless I learnt alot about applets and their relation to JAVA.
+                        So ugly I know and kinda ashamed to have on my blog! ;-) As you can probably guess,this is not one of the aspects I most enjoy about JAVA but nevertheless I learnt alot about applets and their relation to JAVA.
 
-                    This also introduces the idea of inheritence - the class used <mark> extends </mark> Applet, meaning it inherits all methods and properties and can be used by the class. Different to an implementing an interface, all methods and properties do NOT have to be implemented. 
+                        This also introduces the idea of inheritence - the class used <mark> extends </mark> Applet, meaning it inherits all methods and properties and can be used by the class. Different to an implementing an interface, all methods and properties do NOT have to be implemented.
 
-                    The lifecycle of an Applet is as follows, all Applet methods don't take any arguments:
-                    <ol>
-                        <li> Applet is initalized, using init() method (invoked only once) </li>
-                        <li> Applet is started, using start() method </li>
-                        <li> Applet is painted, using paint() method </li>
-                        <li> Applet is stopped, using stop() method </li>
-                        <li> Applet is destroyed, using destroy() method (invoked only once) </li>
-                    </ol>
+                        The lifecycle of an Applet is as follows, all Applet methods don't take any arguments:
+                        <ol>
+                            <li> Applet is initalized, using init() method (invoked only once) </li>
+                            <li> Applet is started, using start() method </li>
+                            <li> Applet is painted, using paint() method </li>
+                            <li> Applet is stopped, using stop() method </li>
+                            <li> Applet is destroyed, using destroy() method (invoked only once) </li>
+                        </ol>
 
-                    Applets must be used with HTML files, again I have experience with using HTML as HTML and CSS were my first introduction to programming during Dec 2015, when I was based in Portugal - wow time flies and I feel like I've learnt a lot since then! 
+                        Applets must be used with HTML files, again I have experience with using HTML as HTML and CSS were my first introduction to programming during Dec 2015, when I was based in Portugal - wow time flies and I feel like I've learnt a lot since then!
 
-                    Within the html the user must enter a:
-                    <xmp>
-                    <applet code>
-                    </xmp> 
-                    tag which embeds the applet into the html. The html document also requires the height and width of the application screen. 
+                        Within the html the user must enter a:
+                        <xmp>
+                            <applet code>
+                        </xmp>
+                        tag which embeds the applet into the html. The html document also requires the height and width of the application screen.
 
-                    All this is interesting, but you can have more functionality by using GUIs such as by using JFrames and the Swing toolkit, which will be discussed in another blog post.
+                        All this is interesting, but you can have more functionality by using GUIs such as by using JFrames and the Swing toolkit, which will be discussed in another blog post.
 
-                    The main thing I learnt that during this module I knew that I wanted to focus more on back-end work that front-end, as may be obvious from the applet ;-). 
+                        The main thing I learnt that during this module I knew that I wanted to focus more on back-end work that front-end, as may be obvious from the applet ;-).
 
-                    This week I am attending the Virtual Reality World Conference in Bristol so will hopefully do a write up of this on the blog soon too but until then thank you so much for reading! :)
+                        This week I am attending the Virtual Reality World Conference in Bristol so will hopefully do a write up of this on the blog soon too but until then thank you so much for reading! :)
 
 
-                        
-                    </p>
-                    <p class="post-meta">[April 2017]</p>
+
+                        </p>
+                        <p class="post-meta">[April 2017]</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
                 <div class="post-preview">
-                        <h2 class="post-title">
-                            First post
-                        </h2>
+                    <h2 class="post-title">
+                        First post
+                    </h2>
                     <h5 class="post-subtitle">
                         the journey begins...
 
@@ -356,8 +519,8 @@ I hope this post was helpful and informative and if you have any questions pleas
 
                     <a href="#">
                         <center><img class = "img-responsive"
-                                src="http://quotesideas.com/wp-content/uploads/2015/02/2671-quotes-about-learning-by-doing.jpg"
-                                alt=""></center>
+                                     src="http://quotesideas.com/wp-content/uploads/2015/02/2671-quotes-about-learning-by-doing.jpg"
+                                     alt=""></center>
                     </a>
                     <p>
                         I will mostly be blogging about stuff I'm working on which includes the final JAVA module as
@@ -374,55 +537,55 @@ I hope this post was helpful and informative and if you have any questions pleas
                     </p>
                     <p class="post-meta">[April 2017]</p>
                 </div>
-                
-                <!-- Pager -->
             </div>
-        </div>
     </div>
+</div>
 
-    <hr>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <base><a href="http://twitter.com/iionzii"></base>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="http://twitter.com/iionzii">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                        </li>
-                        <li>
-                            <base><a href="http://github.com/ionakathryn"></base>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/ionakathryn">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; iona-k [2017]</p>
-                </div>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; iona-k [2017]</p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/clean-blog.min.js"></script>
+<!-- Theme JavaScript -->
+<script src="js/clean-blog.min.js"></script>
 
 </body>
 
